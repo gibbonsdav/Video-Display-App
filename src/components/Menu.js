@@ -18,28 +18,28 @@ const FixedMenuLayout = () => (
         <Menu.Item as="a" header>
           <Image
             size="mini"
-            src="../public/DGlogo.jpg"
+            // src="./DGlogo.jpg"
             style={{ marginRight: "1.5em" }}
           />
           YouTube Search
         </Menu.Item>
-        <Menu.Item as="a">Home</Menu.Item>
+        <Menu.Item as="a">Example</Menu.Item>
 
         <Dropdown item simple text="Dropdown">
           <Dropdown.Menu>
-            <Dropdown.Item>List Item</Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
+            <Dropdown.Item>Example</Dropdown.Item>
+            <Dropdown.Item>Example</Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Header>Header Item</Dropdown.Header>
+            <Dropdown.Header>Example Header</Dropdown.Header>
             <Dropdown.Item>
               <i className="dropdown icon" />
               <span className="text">Submenu</span>
               <Dropdown.Menu>
-                <Dropdown.Item>List Item</Dropdown.Item>
-                <Dropdown.Item>List Item</Dropdown.Item>
+                <Dropdown.Item>Example</Dropdown.Item>
+                <Dropdown.Item>Example</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
+            <Dropdown.Item>Example</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Container>
